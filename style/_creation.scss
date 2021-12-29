@@ -1,0 +1,32 @@
+.cration {
+    width: 100%;
+}
+
+.creation-text {
+    text-align: center;
+    .creation-heading {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+.gallery-item {
+    margin-bottom: 30px;
+    position: relative;
+    img {
+        width: 100%;
+    }
+    h3 {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        color: #fff;
+        z-index: 1;
+        font-size: 25px;
+        position: absolute;
+        top: 52%;
+        left: 6%;
+        width: 41%;
+    }
+}

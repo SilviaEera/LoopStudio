@@ -1,0 +1,19 @@
+.best-service {
+    width: 100%;
+    .container {
+        text-align: center;
+        padding: 100px 30px 100px 30px;
+        img {
+            width: 100%;
+        }
+        .service-text {
+            .service-heading {
+                font-family: "Josefin Sans", sans-serif;
+                font-size: 30px;
+                font-weight: 300px;
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

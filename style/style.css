@@ -5,16 +5,16 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: "Alata", sans-serif;
+}
+
 ul {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-}
-
-.container {
-  background: #fff;
 }
 
 .hero {
@@ -32,10 +32,10 @@ a {
 }
 
 .hero .hero-text h1 {
-  font-size: 38px;
+  font-size: 40px;
   color: #fff;
   border: 1px solid #fff;
-  padding: 20px;
+  padding: 22px;
 }
 
 .navbar {
@@ -52,5 +52,62 @@ a {
 
 .navbar .logo {
   width: 50%;
+}
+
+.best-service {
+  width: 100%;
+}
+
+.best-service .container {
+  text-align: center;
+  padding: 100px 30px 100px 30px;
+}
+
+.best-service .container img {
+  width: 100%;
+}
+
+.best-service .container .service-text .service-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.cration {
+  width: 100%;
+}
+
+.creation-text {
+  text-align: center;
+}
+
+.creation-text .creation-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.gallery-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+}
+
+.gallery-item h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+  z-index: 1;
+  font-size: 25px;
+  position: absolute;
+  top: 52%;
+  left: 6%;
+  width: 41%;
 }
 /*# sourceMappingURL=style.css.map */
