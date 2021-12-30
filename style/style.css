@@ -33,9 +33,10 @@ a {
 
 .hero .hero-text h1 {
   font-size: 40px;
-  color: #fff;
+  color: white;
   border: 1px solid #fff;
   padding: 22px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar {
@@ -73,10 +74,16 @@ a {
   font-weight: 300px;
   margin-top: 50px;
   margin-bottom: 20px;
+  color: #8c8c8c;
+}
+
+.best-service .container .service-text .service-info {
+  padding: 0 26px;
 }
 
 .cration {
   width: 100%;
+  background: #fff;
 }
 
 .creation-text {
@@ -88,6 +95,7 @@ a {
   font-weight: 300;
   font-size: 30px;
   margin-bottom: 50px;
+  color: dimgray;
 }
 
 .gallery-item {
@@ -109,5 +117,89 @@ a {
   top: 52%;
   left: 6%;
   width: 41%;
+  color: white;
+}
+
+.btn {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.btn a {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  color: #8c8c8c;
+  border: 1px solid #8c8c8c;
+  padding: 15px 50px;
+  font-size: 20px;
+  letter-spacing: 8px;
+}
+
+.footer {
+  background: black;
+}
+
+.footer .container {
+  padding: 60px 30px 0 30px;
+  text-align: center;
+}
+
+.footer .container .logo {
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-list a {
+  color: white;
+  padding: 15px 0;
+  font-size: 20px;
+}
+
+.footer-list a:last-of-type {
+  margin-bottom: 20px;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social img {
+  width: 12%;
+  margin: 30px 12px;
+}
+
+.credit p {
+  color: #8c8c8c;
+  font-size: 16px;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

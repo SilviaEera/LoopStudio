@@ -1,5 +1,6 @@
 .cration {
     width: 100%;
+    background: #fff;
 }
 
 .creation-text {
@@ -9,6 +10,7 @@
         font-weight: 300;
         font-size: 30px;
         margin-bottom: 50px;
+        color: $very-dark-gray;
     }
 }
 
@@ -28,5 +30,21 @@
         top: 52%;
         left: 6%;
         width: 41%;
+        color: $white;
+    }
+}
+
+.btn {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    a {
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 300;
+        color: $dark-gray;
+        border: 1px solid $dark-gray;
+        padding: 15px 50px;
+        font-size: 20px;
+        letter-spacing: 8px;
     }
 }
