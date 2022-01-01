@@ -202,4 +202,86 @@ a {
   font-size: 16px;
   padding-bottom: 50px;
 }
+
+.menu {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: ease-in-out 0.5s;
+  -webkit-transition: ease-in-out 0.5s;
+  -moz-transition: ease-in-out 0.5s;
+  -ms-transition: ease-in-out 0.5s;
+  -o-transition: ease-in-out 0.5s;
+}
+
+.menu .btn-close {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin-top: 60px;
+}
+
+.menu .btn-close .nav-logo {
+  width: 55%;
+  padding-left: 30px;
+}
+
+.menu-wrapper .menu-items-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 30px 0 0 30px;
+}
+
+.menu-heading h4 {
+  padding: 25px 0;
+}
+
+.menu-heading h4 a {
+  color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.menu-heading:first-of-type {
+  padding-top: 150px;
+}
+
+.menu-hide {
+  left: -100vw;
+  opacity: 0;
+}
+
+.bars {
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+
+.bars-hide {
+  opacity: 0;
+}
 /*# sourceMappingURL=style.css.map */

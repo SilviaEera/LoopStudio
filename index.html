@@ -17,22 +17,44 @@
 <body>
     <header>
         <div class="container">
-            <div class="hero">
+            <div class="hero" id="about">
                 <div class="navbar">
                     <img class="logo" src="./images/logo.svg" alt="logo" />
-                    <img class="bars" src="./images/icon-hamburger.svg" alt="" />
-                </div>
+                    <!-- menu start -->
+                    <nav class="menu menu-hide">
+                        <div class="btn-close">
+                            <img class="nav-logo" src="./images/logo.svg" alt="logo">
+                            <img src="./images/icon-close.svg" alt="" />
+                        </div>
 
-                <div class="hero-text">
-                    <h1 class="main-heading">
-                        IMMERSIVE EXPERIENCES THAT DELIVER
-                    </h1>
+                        <div class="menu-wrapper">
+
+                            <div class="menu-items-wrapper">
+                                <div class="menu-items">
+                                    <div class="menu-heading">
+                                        <h4><a href="#about">ABOUT</a></h4>
+                                        <h4><a href="#event">CAREERS</a></h4>
+                                        <h4><a href="#event">EVENTS</a></h4>
+                                        <h4><a href="#event">PRODUCTS</a></h4>
+                                        <h4><a href="#event">SUPPORT</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+                    </nav>
+                    <!-- menu end -->
+                    <img class="bars" src="./images/icon-hamburger.svg" alt="" />
+                    </div>
+
+                    <div class="hero-text">
+                        <h1 class="main-heading">
+                            IMMERSIVE EXPERIENCES THAT DELIVER
+                        </h1>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
 
-    <section class="best-service" id="best-service">
+    <section class="best-service" id="event">
         <div class="container">
             <img src="./images/mobile/image-interactive.jpg" alt="vr-headset" />
 
@@ -48,7 +70,7 @@
         </div>
     </section>
 
-    <section class="creation" id="creation">
+    <section class="creation" id="product">
         <div class="container">
             <div class="creation-text">
                 <h2 class="creation-heading">OUR CREATIONS</h2>
@@ -99,30 +121,50 @@
         </div>
     </section>
 
-    <footer class="footer" id="footer">
+    <footer class="footer" id="support">
         <div class="container">
-            <img class="logo" src="./images/logo.svg" alt="logo" />
+            <div class="left">
+                <img class="logo" src="./images/logo.svg" alt="logo" />
 
-            <div class="footer-list">
-                <a href="#">About</a>
-                <a href="#">Careers</a>
-                <a href="#">Events</a>
-                <a href="#">Products</a>
-                <a href="#">Support</a>
+                <div class="footer-list">
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Events</a>
+                    <a href="#">Products</a>
+                    <a href="#">Support</a>
+                </div>
             </div>
 
-            <div class="social">
-                <img class="facebook" src="./images/icon-facebook.svg" alt="icon-facebook" />
-                <img class="twitter" src="./images/icon-twitter.svg" alt="icon-twitter" />
-                <img class="pinterest" src="./images/icon-instagram.svg" alt="icon-pinterest" />
-                <img class="instagram" src="./images/icon-pinterest.svg" alt="icon-instagram" />
-            </div>
+            <div class="right">
+                <div class="social">
+                    <img class="facebook" src="./images/icon-facebook.svg" alt="icon-facebook" />
+                    <img class="twitter" src="./images/icon-twitter.svg" alt="icon-twitter" />
+                    <img class="pinterest" src="./images/icon-instagram.svg" alt="icon-pinterest" />
+                    <img class="instagram" src="./images/icon-pinterest.svg" alt="icon-instagram" />
+                </div>
 
-            <div class="credit">
-                <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+                <div class="credit">
+                    <p>&copy; 2021 Loopstudios. All rights reserved.</p>
+                </div>
             </div>
         </div>
     </footer>
+
+
+    <script>
+        const btnClose = document.querySelector(".btn-close");
+        const menu = document.querySelector(".menu");
+        const btnBars = document.querySelector(".bars");
+
+        btnClose.addEventListener("click", menuHideShow);
+        btnBars.addEventListener("click", menuHideShow);
+
+        function menuHideShow() {
+            // console.log('clicked');
+            menu.classList.toggle("menu-hide");
+            btnBars.classList.toggle("bars-hide");
+        }
+    </script>
 </body>
 
 </html>
